@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '7693f25d54616a5714da08e2625b08078eca1917',
         'name' => 'cakephp/app',
         'dev' => true,
     ),
@@ -20,12 +20,12 @@
             'dev_requirement' => true,
         ),
         'cakephp/app' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '7693f25d54616a5714da08e2625b08078eca1917',
             'dev_requirement' => false,
         ),
         'cakephp/bake' => array(
@@ -940,6 +940,15 @@
             'reference' => '34a41e998c2183e22995f158c581e7b5e755ab9e',
             'dev_requirement' => true,
         ),
+        'twbs/bootstrap' => array(
+            'pretty_version' => 'v5.1.3',
+            'version' => '5.1.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../twbs/bootstrap',
+            'aliases' => array(),
+            'reference' => '1a6fdfae6be09b09eaced8f0e442ca6f7680a61e',
+            'dev_requirement' => false,
+        ),
         'twig/markdown-extra' => array(
             'pretty_version' => 'v3.3.8',
             'version' => '3.3.8.0',
@@ -957,6 +966,12 @@
             'aliases' => array(),
             'reference' => '8442df056c51b706793adf80a9fd363406dd3674',
             'dev_requirement' => true,
+        ),
+        'twitter/bootstrap' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => 'v5.1.3',
+            ),
         ),
         'webmozart/assert' => array(
             'pretty_version' => '1.10.0',
